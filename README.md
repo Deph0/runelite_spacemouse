@@ -1,5 +1,7 @@
 # Space Mouse
 
+![Space Mouse banner](docs/banner.png)
+
 Control the Old School RuneScape camera with a 3D mouse (SpaceMouse, SpaceNavigator,
 SpaceMouse Compact, ...).
 
@@ -14,6 +16,10 @@ SpaceMouse --> 3DxWare / spacenavd --axis->key--> key event --> SpaceMousePlugin
                                     setCameraYawTarget / setCameraPitchTarget
                                     runScript(CAMERA_DO_ZOOM)
 ```
+
+![Control mapping demo](docs/demo.gif)
+
+*Illustration of the control mapping, not gameplay footage.*
 
 ## Setup
 
@@ -101,6 +107,14 @@ field (chat, bank search, ...) has focus.
 
 On Windows use `gradlew.bat` instead of `./gradlew`. The hub builds the plugin with
 its standard template (`build=standard` in `runelite-plugin.properties`).
+
+## How this was built
+
+This plugin was written with AI assistance: pairing with [OpenCode](https://opencode.ai)
+running the **Big Pickle** model. Every change was reviewed, built and exercised against
+a live client by the author, who is responsible for the submitted code. The icon, the
+banner and the animation in `docs/` are drawn by a small Pillow script rather than
+captured from the game.
 
 ## License
 
