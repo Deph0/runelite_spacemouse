@@ -1,0 +1,15 @@
+.gradle
+build
+.idea/
+.project
+.settings/
+.classpath
+nbactions.xml
+nb-configuration.xml
+nbproject/
+*.class
+
+# local run logs and diagnostics
+*.log
+tools/
+cameraplugin.txt
